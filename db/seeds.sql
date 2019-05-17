@@ -1,10 +1,3 @@
-USE burgers_db;
-
-INSERT INTO burgers (burger_name, devoured) 
-VALUES ("Mr. Beefy", false);
-
-INSERT INTO burgers (burger_name, devoured) 
-VALUES ("Adios", true);
-
-INSERT INTO burgers (burger_name, devoured) 
-VALUES ("Vegan-or-Begone", false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', FALSE);
